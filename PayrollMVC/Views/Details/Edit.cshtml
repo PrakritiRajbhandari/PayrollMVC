@@ -1,0 +1,122 @@
+﻿@model PayrollMVC.Model.Employee_Salary_Details
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Add Salary" class="btn btn-default" style="float: right;" />
+    </div>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            EmployeeId
+        </th>
+        <th>
+            Type
+        </th>
+        <th>
+            Earning
+        </th>
+        <th>
+            Deduction
+        </th>
+
+        <th></th>
+    </tr>
+
+</table>
+        @if (Model != null && Model.Count > 0)
+        {
+            int j = 0;
+            foreach (var i in Model)
+            {
+                if (j == 1)
+                {
+                    <tr class="contacts-record-template" style="display:none">
+
+                        <td>
+                            @Html.TextBoxFor(a => Model.EmployeeId)
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(a => Model.Type)
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(a => Model.Earning)
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(a => Model.Deduction, new { @style = "width: 200px;" })
+                        </td>
+
+                    </tr>
+                }
+
+                <tr class="contacts-record">
+                    <td>
+                        @Html.TextBoxFor(a => Model.EmployeeId)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(a => Model.Type)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(a => Model.Earning)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(a => Model.Deduction, new { @style = "width: 200px;" })
+                    </td>
+
+                </tr>
+                j++;
+            }
+        }
+        </table>
+
+
+        @*Display buttons*@
+        <input type="button" class="add-button" name="add" value="Add" />
+
+        <div style="text-align:right"><a href="#" id="addNew">Add Contact</a></div>
+        <input type="submit" name="submitAction" value="Submit" class="btn btn-primary" onclick="return confirm('Please double check all information before submitting.   Submit Notification?')" />
+    </div>
+
+
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/Scripts/jquery.maskedinput.min.js"></script>
+<script type="text/javascript">
+    //$('.phone2').mask('999-999-9999');
+    //$('.phone').mask('?999-999-9999');
+
+
+    $(document).ready(function () {
+
+        $('.add-button').click(function () {
+
+            var count = $("tr.contacts-record").length;
+            var template = $('.contacts-record-template').clone();
+            template.find('input[type=text]').val(null);
+            template.find('input[type=checkbox]').prop('checked', false);
+            $.each(template.find('input[type=text]'), function () {
+                var name = $(this).attr('name');
+                name = name.replace('1', count);
+                $(this).attr('name', name);
+            });
+
+            $('.list-Contacts').append(template);
+            template.removeClass('contacts-record-template')
+                                               .addClass('contacts-record').show();
+        });
+    });
+
+
+</script>
+

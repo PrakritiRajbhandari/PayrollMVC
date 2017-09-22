@@ -1,0 +1,68 @@
+﻿@model PayrollMVC.Models.RegistrationDTO
+@Scripts.Render("~/bundles/jqueryval")
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<fieldset>
+    <div class="form-group">
+        <label class="control-label col-md-3" for="FirstName">FirstName</label>
+        <input data-val="true" data-val-required="The First Name field is required." id="FirstName" name="FirstName" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3" for="MiddleName">MiddleName</label>
+        <input data-val="true" data-val-required="The Middle Name field is required." id="MiddleName" name="MiddleName" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.MiddleName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3" for="LastName">LastName</label>
+        <input data-val="true" data-val-required="The Last Name field is required." id="LastName" name="LastName" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+    </div>
+            
+    <div class="form-group">
+        <label class="control-label col-md-3" for="Gender">Gender</label>
+        <input data-val="true" data-val-required="The Gender  field is required." id="Gender" name="Gender" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3" for="Maritalstatus">Maritalstatus</label>
+        <input data-val="true" data-val-required="The Maritalstatus  field is required." id="Maritalstatus" name="Maritalstatus" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.Maritalstatus, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3" for="DateOfBirth">DateOfBirth</label>
+        <input data-val="true" data-val-required="The DateOfBirth  field is required." id="DateOfBirth" name="DateOfBirth" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+    </div>  
+
+    <div class="form-group">
+        <label class="control-label col-md-3" for="Mobile">Mobile</label>
+        <input data-val="true" data-val-required="The Mobile  field is required." id="Mobile" name="Mobile" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3" for="Email">Email</label>
+        <input data-val="true" data-val-required="The Email  field is required." id="Email" name="Email" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3" for="Address">Address</label>
+        <input data-val="true" data-val-required="The Address  field is required." id="Address" name="Address" value="" class="form-control text-box single-line" type="text">
+        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+    </div>
+           
+   
+</fieldset>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$('.datepicker').datepicker();
+
+        $("#DateOfBirth").datepicker();
+       // $("#DateOfRegistration").datepicker();
+    });
+</script>
+

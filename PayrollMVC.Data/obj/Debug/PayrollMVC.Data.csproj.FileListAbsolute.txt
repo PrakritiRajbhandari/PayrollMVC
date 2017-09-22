@@ -1,0 +1,41 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Model.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Model.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Registration.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Employee_Salary_Details.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Employee_Salary_Master.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Salary.resources
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.dll.config
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.dll
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Data.pdb
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.dll
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Model.dll
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\PayrollMVC.Model.pdb
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.xml
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.csprojResolveAssemblyReference.cache
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Registration.resources
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Employee_Salary_Details.resources
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Employee_Salary_Master.resources
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Salary.resources
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.csproj.GenerateResource.Cache
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.dll
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.pdb
+D:\InternProjects\PayrollMVC\PayrollMVC.Data\obj\Debug\PayrollMVC.Data.Migrations.Gender.resources
